@@ -29,7 +29,7 @@ Now make following calls,
     ll.remove("grapes")
     ll.print()
 ```
-[Solution](https://github.com/Eh1z/DSA_Interview_prep/blob/main/Structures/2-Linked_lists/Solution/singly_linked_list)
+[Solution](https://github.com/Eh1z/DSA_Interview_prep/blob/main/Structures/2-Linked_lists/Solution/singly_linked_list.py)
 
 2. Implement a doubly linked list. The only difference with regular linked list is that double linked has prev node reference as well. That way you can iterate in forward and backward direction.
 Your node class will look this this,
@@ -48,4 +48,4 @@ def print_forward(self):
 def print_backward(self):
     # Print linked list in reverse direction. Use cnode.prev for this.
 ```
-[Solution](https://github.com/Eh1z/DSA_Interview_prep/blob/main/2-Linked_lists/Solution/)
+[Solution](https://github.com/Eh1z/DSA_Interview_prep/blob/main/2-Linked_lists/Solution/doubly_linked_list.py)
